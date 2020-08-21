@@ -12,12 +12,12 @@ public class BbsDAO {
 	
 	public BbsDAO() {
 		try {
-//			String dbURL = "jdbc:mysql://localhost:3306/GOMTAKWEB?characterEncoding=UTF-8&serverTimzone=UTC";
-//			String dbID = "root";
-//			String dbPassword = "root";
-			String dbURL = "jdbc:mysql://localhost/gomtak";
-			String dbID = "gomtak";
-			String dbPassword = "tak2268641!";
+			String dbURL = "jdbc:mysql://localhost:3306/GOMTAKWEB?characterEncoding=UTF-8&serverTimzone=UTC";
+			String dbID = "root";
+			String dbPassword = "root";
+//			String dbURL = "jdbc:mysql://localhost/gomtak";
+//			String dbID = "gomtak";
+//			String dbPassword = "tak2268641!";
 			Class.forName("com.mysql.jdbc.Driver"); 
 			conn= DriverManager.getConnection(dbURL, dbID, dbPassword);
 		}catch(Exception e) {
